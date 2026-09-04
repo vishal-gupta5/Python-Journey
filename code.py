@@ -4,7 +4,7 @@ print("Hello World!") # Print Hello World
 print("Hello World ", "With Python") # Concate string with Space
 print("Vishal \nGupta") # Print in Next line
 
-# Variables
+#! Variables
 
 name = "Vishal"
 age = 23
@@ -15,7 +15,7 @@ print("My age is:", age)
 print("The value of PI is:", PI)
 
 
-# Data Types
+#! Data Types
 
 city_name = "Bareilly"  # String Value
 price = 10 # Integer value
@@ -27,9 +27,38 @@ print(type(price))
 print(type(isTrue))
 
 
-# Style Guide
+#! Style Guide
 
 tot_price = 100 # snake_case
 totPrice = 200 # camel_case
 TotPrice = 300 # pascal_case
 
+
+#! Operators
+
+# Assigement Operators (=, +=, -=, *=, /=)
+a = 10
+b = 5
+
+# Arithemtic Operators (+, -, *, /, %, **)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+
+
+# Relational / Comparison Operators (>, >=, <, <=, ==, !=)
+
+print(a > b)
+print(a >= b)
+print(a < b)
+print(a <= b)
+print(a == b)
+print(a != b)
+
+# Logical Operators (not, and, or)
+
+print((5 > 2) and (1 < 3)) # True
+print((5 < 2) or (1 > 3)) # False
