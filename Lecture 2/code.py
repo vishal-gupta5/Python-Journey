@@ -21,3 +21,18 @@ elif (colour == "green"):
     print("Go!")
 else: 
     print("Please Enter the valid colour!")
+    
+    
+#! Match Case
+
+color = input("Enter the value of color for Match-Case: ")
+
+match color:
+    case "green":
+        print("Go!")
+    case "red":
+        print("Stop!")
+    case "yellow":
+        print("Look")
+    case _:
+        print("Please enter the valid input!")
