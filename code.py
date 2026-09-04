@@ -26,3 +26,10 @@ print(type(city_name))
 print(type(price))
 print(type(isTrue))
 
+
+# Style Guide
+
+tot_price = 100 # snake_case
+totPrice = 200 # camel_case
+TotPrice = 300 # pascal_case
+
