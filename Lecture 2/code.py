@@ -17,5 +17,7 @@ if (colour == "red"):
     print("Stop!")
 elif (colour == "yellow"):
     print("Ready to go!")
-else:
+elif (colour == "green"):
     print("Go!")
+else: 
+    print("Please Enter the valid colour!")
