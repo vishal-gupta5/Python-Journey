@@ -62,3 +62,12 @@ print(a != b)
 
 print((5 > 2) and (1 < 3)) # True
 print((5 < 2) or (1 > 3)) # False
+
+
+#! Type Conversion
+
+ans1 = int(5 + 10.0) # Casting
+ans2 = 5 + 10.0 # Conversion
+
+print(ans1, type(ans1))
+print(ans2, type(ans2))
