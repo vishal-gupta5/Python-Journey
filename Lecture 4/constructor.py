@@ -11,4 +11,4 @@ class Student:
         return self.city
 
 stu = Student("Vishal", "Bareilly")
-print(f"{stu.name} lives in {stu.get_cgpa()}")
+print(f"{stu.name} lives in {stu.get_cgpa()}") 
