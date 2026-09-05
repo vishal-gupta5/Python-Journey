@@ -1,11 +1,13 @@
 # Create a Class in python
 class Student:
-    def __init__(self, name, city): # Define Constuctor
+    def __init__(self, name, cgpa): # Define Constuctor
         self.name = name
-        self.city = city
+        self.cgpa = cgpa
+    
+    def get_cgpa(self):
+        return self.cgpa
 
 std1 = Student("Vishal", "Bareilly") # Object
 std2 = Student("Urvashi", "Delhi")
 
-print(std1.name)
-print(std1.city)
+print(f"{std1.name} has cgpa = {std1.get_cgpa()}")
