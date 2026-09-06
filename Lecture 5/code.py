@@ -1,6 +1,7 @@
 # f = open("./Lecture 5/sample.txt", "r")
 # f = open("./Lecture 5/sample.txt", "w")
-f = open("./Lecture 5/sample.txt", "a")
+# f = open("./Lecture 5/sample.txt", "a")
+f = open("./Lecture 5/sample2.txt", "x")
 
 # data = f.read()
 # print(data)
